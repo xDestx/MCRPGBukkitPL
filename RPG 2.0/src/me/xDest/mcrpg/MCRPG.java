@@ -25,7 +25,7 @@ public class MCRPG extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
-		Messenger.info("Hello! This is MCRPG V2.0 starting up! ;)");
+		Messenger.info("Hello! This is McLever starting up! ;)");
 		SLAPI.enable(this);
 		Manager.enable(this);
 		Manager.enable(); 
