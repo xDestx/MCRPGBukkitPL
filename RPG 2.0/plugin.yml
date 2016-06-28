@@ -1,0 +1,30 @@
+name: MCRPG
+
+main: me.xDest.mcrpg.MCRPG
+
+version: 0.1
+commands:
+  stats:
+    description: Show stats
+    usage: /stats <player>
+  gamemode:
+    description: Used to set gamemode
+    usage: /gamemode <gamemode> <player>
+  gm:
+    description: Just like gamemode
+    usage: /gm <gamemode> <player>
+  setstats:
+    description: Used to set stats if you have points remaining
+    usage: /setstats
+  addrxp:
+    description: Used to add rxp
+    usage: /addrxp amount
+  forcestats:
+    description: Used to force stats
+    usage: /forcestats
+  getlevel:
+    description: Used to get player level
+    usage: /getlevel
+  resetstats:
+    description: Used to reset stats
+    usage: /resetstats
