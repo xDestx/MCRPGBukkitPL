@@ -134,28 +134,28 @@ public class RxpListener implements Listener {
 			Random rnd = new Random();
 			int x = rnd.nextInt(99);
 			if (x >= 10 && x <= 19) {
-				p.getInventory().addItem(new ItemStack(Material.IRON_ORE));
+				//p.getInventory().addItem(new ItemStack(Material.IRON_ORE));
 			}
 			ItemStack item = p.getItemInHand();
 			if (item.getType() == Material.STONE_PICKAXE && b.getType() == Material.GOLD_ORE) {
-				b.getLocation().getWorld().dropItemNaturally(new Location(b.getWorld(), b.getX(), b.getY() + 0.5D, b.getZ()), new ItemStack(b.getType(), 1));
+			//	b.getLocation().getWorld().dropItemNaturally(new Location(b.getWorld(), b.getX(), b.getY() + 0.5D, b.getZ()), new ItemStack(b.getType(), 1));
 			}
 		} else {
 			Manager.playerBrokeNorm(p, bt);
 			Random rnd = new Random();
 			int x = rnd.nextInt(99);
 			if (x >= 10 && x <= 14) {
-				p.getInventory().addItem(new ItemStack(Material.IRON_ORE));
+			//	p.getInventory().addItem(new ItemStack(Material.IRON_ORE));
 			}
 		}
-		Random rnd = new Random();
-		if (rnd.nextInt(10000) == 22)
-		{
-			for (int i = 0; i < 4; i++)
-			{
-				p.getWorld().dropItem(p.getLocation(), new ItemStack(Material.IRON_BLOCK, 64));
-			}
-		}
+		//Random rnd = new Random();
+		//if (rnd.nextInt(10000) == 22)
+		//{
+		//	for (int i = 0; i < 4; i++)
+			//{
+			////	p.getWorld().dropItem(p.getLocation(), new ItemStack(Material.IRON_BLOCK, 64));
+			//}
+		//}
 	}
 	
 	@EventHandler
