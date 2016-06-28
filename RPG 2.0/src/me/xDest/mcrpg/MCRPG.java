@@ -60,7 +60,7 @@ public class MCRPG extends JavaPlugin {
 		if(label.equals("setstats")) {
 			Player p = (Player) sender;
 			if (!Manager.tryOpenLvlGUI(p)) {
-				p.sendMessage(ChatColor.DARK_RED + "You don't have any level points...If you wish to view your stats try /stats");
+				p.sendMessage(ChatColor.DARK_RED + "You don't have any level points. If you wish to view your stats, try /stats");
 				return true;
 			} else {
 				return true;
