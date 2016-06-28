@@ -62,7 +62,7 @@ public class Manager {
 		HashMap<String, ItemStack> icons = s.getIcons();
 		final int[] positions = {2,3,4,5,6,10,12,14,16,20,24};
 		int next = 0;
-		Messenger.info(""+icons.size());
+		//Messenger.info(""+icons.size());
 		for (String string : icons.keySet()) {
 			inv.setItem(positions[next], icons.get(string));
 			next++;
@@ -80,7 +80,7 @@ public class Manager {
 		HashMap<String, ItemStack> icons = s.getIcons();
 		final int[] positions = {2,3,4,5,6,10,12,14,16,20,24};
 		int next = 0;
-		Messenger.info(""+icons.size());
+		//Messenger.info(""+icons.size());
 		for (String string : icons.keySet()) {
 			inv.setItem(positions[next], icons.get(string));
 			next++;
@@ -241,7 +241,7 @@ public class Manager {
 			HashMap<String, ItemStack> icons = s.getIcons();
 			final int[] positions = {2,3,4,5,6,10,12,14,16,20,24};
 			int next = 0;
-			Messenger.info(""+icons.size());
+		//	Messenger.info(""+icons.size());
 			for (String string : icons.keySet()) {
 				inv.setItem(positions[next], icons.get(string));
 				next++;

@@ -275,7 +275,9 @@ public class Stats {
 	
 	public HashMap<String, ItemStack> getIcons() {
 		setIcons();
-		Messenger.info("Given hashmap");
+		
+		//Messenger.info("Given hashmap");
+		//Debug line
 		return icons;
 	}
 	
