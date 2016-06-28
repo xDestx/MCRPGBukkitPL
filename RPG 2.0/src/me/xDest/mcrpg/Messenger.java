@@ -7,7 +7,7 @@ import org.bukkit.Bukkit;
 public class Messenger {
 
 	private static final Logger log = Logger.getLogger("Minecraft");
-	private static final String prefix = "[McLever]";
+	private static final String prefix = "[McLeveler]";
 	
 	public static void severe(String msg) {
 		log.severe(prefix + " " + msg);
